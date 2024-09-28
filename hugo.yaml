@@ -1,12 +1,11 @@
 baseURL: http://amnerip.github.io/coding-interview-university
 languageCode: en-us
 title: My New Hugo Site
+theme: lotusdocs
 
 module:
   imports:
     - path: github.com/gohugoio/hugo-mod-bootstrap-scss/v5
-      disable: false
-    - path: lotusdocs
       disable: false
 
 markup:
