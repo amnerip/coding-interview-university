@@ -58,6 +58,7 @@ jobs:
           TZ: America/Los_Angeles
         run: |
           hugo \
+            --logLevel debug --debug \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
