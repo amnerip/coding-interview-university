@@ -1,0 +1,4 @@
+baseURL: http://amnerip.github.io/coding-interview-university
+languageCode: en-us
+title: My New Hugo Site
+theme: ananke
