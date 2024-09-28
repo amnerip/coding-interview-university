@@ -4,9 +4,9 @@ title: My New Hugo Site
 
 module:
   imports:
-    - path: lotusdocs
-      disable: false
     - path: github.com/gohugoio/hugo-mod-bootstrap-scss/v5
+      disable: false
+    - path: lotusdocs
       disable: false
 
 markup:
