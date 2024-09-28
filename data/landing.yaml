@@ -1,0 +1,32 @@
+image text:
+  template: image text
+  enable: true
+  weight: 10
+
+  title: Coding Interview University
+  subtitle: Multi-month study course to help you ace your next Big Tech interview.
+  ctaButton:
+    text: Get Started
+    url: "/coding-interview-university/docs"
+  image:
+    path: images
+    filename: coding-at-the-whiteboard-silicon-valley.png
+    alt: Coding at the whiteboard - from HBO's Silicon Valley
+  imgOrder: 
+    desktop: 2
+    mobile: 1
+    
+
+hero:
+  enable: false
+  weight: 10
+  template: hero
+
+featureGrid:
+  enable: false
+  template: feature grid
+
+imageCompare:
+  enable: false
+  weight: 30
+  template: image compare

@@ -9,3 +9,8 @@ module:
       disable: false
     - path: github.com/gohugoio/hugo-mod-bootstrap-scss/v5
       disable: false
+
+params:
+  docs:
+    title: Coding Interview University
+    darkMode: true
