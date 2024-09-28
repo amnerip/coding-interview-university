@@ -1,20 +1,11 @@
 baseURL: http://amnerip.github.io/coding-interview-university
 languageCode: en-us
 title: My New Hugo Site
-theme: lotusdocs
 
 module:
+  replacements: github.com/colinwilson/lotusdocs -> lotusdocs
   imports:
+    - path: github.com/colinwilson/lotusdocs
+      disable: false
     - path: github.com/gohugoio/hugo-mod-bootstrap-scss/v5
       disable: false
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-menu:
-  primary:
-    - name: Docs
-      url: /docs/
-      identifier: docs
-      weight: 10
