@@ -3,9 +3,8 @@ languageCode: en-us
 title: My New Hugo Site
 
 module:
-  replacements: github.com/colinwilson/lotusdocs -> lotusdocs
   imports:
-    - path: github.com/colinwilson/lotusdocs
+    - path: lotusdocs
       disable: false
     - path: github.com/gohugoio/hugo-mod-bootstrap-scss/v5
       disable: false
